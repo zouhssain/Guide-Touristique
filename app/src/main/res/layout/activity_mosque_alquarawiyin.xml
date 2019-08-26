@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MosqueAlquarawiyin">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="200dp">
+
+        <ViewFlipper
+            android:id="@+id/bckgrndViewFlipper4"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp">
+
+            <ImageView
+                android:id="@+id/bckgrndImageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/mosque_alquarawiyin_1" />
+
+            <ImageView
+                android:id="@+id/bckgrndImageView2"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/mosque_alquarawiyin_2" />
+
+            <ImageView
+                android:id="@+id/bckgrndImageView3"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/mosque_alquarawiyin_3" />
+
+            <ImageView
+                android:id="@+id/bckgrndImageView4"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/mosque_alquarawiyin_4" />
+        </ViewFlipper>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_marginTop="200dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/titre_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:textColor="#000000"
+            android:text="Mosque  al Quaraouiyine"/>
+
+        <android.support.v4.widget.NestedScrollView
+            android:layout_marginTop="40dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/desc_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:layout_below="@+id/titre_1"
+                android:textColor="#000000"
+                android:text="@string/mosque_alquarawiyin"/>
+        </android.support.v4.widget.NestedScrollView>
+
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

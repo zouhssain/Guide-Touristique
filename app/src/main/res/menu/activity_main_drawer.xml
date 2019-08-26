@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/feselbali"
+            android:title="Fès El Bali"/>
+        <item
+            android:id="@+id/darlmakhzen"
+            android:title="Dar El Makhzen" />
+        <item
+            android:id="@+id/madrassa_bou3nania"
+            android:title="La médersa Bou Inania" />
+        <item
+            android:id="@+id/La_Mosquee_Karaouiyne"
+            android:title="La Mosquée Karaouiyne" />
+        <item
+            android:id="@+id/borj_nord_fes"
+            android:title="Borj Nord Fes" />
+        <item
+            android:id="@+id/complexe_nejjarine"
+            android:title="Complexe Nejjarine" />
+        <item
+            android:id="@+id/jardin_jnane_sbil"
+            android:title="Jardin Jnane Sbil" />
+
+        <item
+            android:id="@+id/medersa_attarine"
+            android:title="Medrassa el Attarin" />
+
+        <item
+            android:id="@+id/mellah"
+            android:title="Mellah" />
+
+        <item
+            android:id="@+id/musee_du_batha"
+            android:title="Musée du Batha" />
+
+        <item
+            android:id="@+id/tannerie_chouara"
+            android:title="Tannerie Chouara" />
+
+        <item
+            android:id="@+id/riad_fes_bab_rcif"
+            android:title="Riad Fes Bab Rcif" />
+
+        <item
+            android:id="@+id/zalagh_parc_place"
+            android:title="Zalagh_Parc_Palace" />
+
+
+    </group>
+
+
+</menu>
